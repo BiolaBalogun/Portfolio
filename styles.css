@@ -107,14 +107,12 @@ body {
 
 /* About page*/
 .about-content-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 60%;
-    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
 
 }
 .about-content-wrapper img {
-    width: 80%;
-    margin-left: 3em;
+    width: 90%;
 
 }
